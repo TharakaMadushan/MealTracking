@@ -1,0 +1,12 @@
+F:\Angular\MealTracking\MealTrackingServer\EmailService\bin\Debug\net8.0\EmailService.deps.json
+F:\Angular\MealTracking\MealTrackingServer\EmailService\bin\Debug\net8.0\EmailService.dll
+F:\Angular\MealTracking\MealTrackingServer\EmailService\bin\Debug\net8.0\EmailService.pdb
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\EmailService.csproj.AssemblyReference.cache
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfoInputs.cache
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\EmailService.AssemblyInfo.cs
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\EmailService.csproj.CoreCompileInputs.cache
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\EmailService.dll
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\refint\EmailService.dll
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\EmailService.pdb
+F:\Angular\MealTracking\MealTrackingServer\EmailService\obj\Debug\net8.0\ref\EmailService.dll

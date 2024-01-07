@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GEeLAr0dRmllCCbnrmppHorcVRraa2C0nH+9ODU9X1c=",
+  "Source": "MealTrackingServer",
+  "BasePath": "_content/MealTrackingServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

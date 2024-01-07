@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MealTrackingServer", "MealTrackingServer\MealTrackingServer.csproj", "{88AFCC3D-AE2F-4A00-9F9E-BDD1B0D60D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{F6684B71-72CD-408F-BE84-69D84868D2DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88AFCC3D-AE2F-4A00-9F9E-BDD1B0D60D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AFCC3D-AE2F-4A00-9F9E-BDD1B0D60D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AFCC3D-AE2F-4A00-9F9E-BDD1B0D60D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AFCC3D-AE2F-4A00-9F9E-BDD1B0D60D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6684B71-72CD-408F-BE84-69D84868D2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6684B71-72CD-408F-BE84-69D84868D2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6684B71-72CD-408F-BE84-69D84868D2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6684B71-72CD-408F-BE84-69D84868D2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {808277BD-CF91-43D7-87E1-16BA77DFAC38}
+	EndGlobalSection
+EndGlobal
