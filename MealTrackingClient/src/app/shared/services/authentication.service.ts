@@ -1,5 +1,5 @@
 
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { EnvironmentUrlService } from './environment-url.service';
 import { UserForRegistrationDto } from 'src/app/_Interfaces/user/userForRegistrationDto.model';
@@ -10,6 +10,7 @@ import { Subject } from 'rxjs';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { ForgotPasswordDto } from 'src/app/_Interfaces/resetPassword/forgotPasswordDto.model';
 import { ResetPasswordDto } from 'src/app/_Interfaces/resetPassword/resetPasswordDto.model';
+import { CustomEncoder } from '../custom-encoder';
 
 @Injectable({
   providedIn: 'root'
@@ -63,5 +64,12 @@ export class AuthenticationService {
 
   public resetPassword = (route: string, body: ResetPasswordDto) => {
     return this.http.post(this.createCompleteRoute(route, this.envUrl.urlAddress), body);
+  }
+
+  public confirmEmail = (route: string, token: string, email: string) => {
+    let params = new HttpParams({ encoder: new CustomEncoder() })
+    params = params.append('token', token);
+    params = params.append('email', email);
+    return this.http.get(this.createCompleteRoute(route, this.envUrl.urlAddress), { params: params });
   }
 }
