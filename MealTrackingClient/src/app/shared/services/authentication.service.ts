@@ -11,6 +11,7 @@ import { JwtHelperService } from '@auth0/angular-jwt';
 import { ForgotPasswordDto } from 'src/app/_Interfaces/resetPassword/forgotPasswordDto.model';
 import { ResetPasswordDto } from 'src/app/_Interfaces/resetPassword/resetPasswordDto.model';
 import { CustomEncoder } from '../custom-encoder';
+import { TwoFactorDto } from 'src/app/_Interfaces/twoFactor/twoFactorDto.model';
 
 @Injectable({
   providedIn: 'root'
@@ -71,5 +72,9 @@ export class AuthenticationService {
     params = params.append('token', token);
     params = params.append('email', email);
     return this.http.get(this.createCompleteRoute(route, this.envUrl.urlAddress), { params: params });
+  }
+
+  public twoStepLogin = (route: string, body: TwoFactorDto) => {
+    return this.http.post<AuthResponseDto>(this.createCompleteRoute(route, this.envUrl.urlAddress), body);
   }
 }
