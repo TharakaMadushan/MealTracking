@@ -1,4 +1,6 @@
-﻿namespace MealTrackingServer.Entities.DataTransferObjects
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MealTrackingServer.Entities.DataTransferObjects
 {
     public class TwoFactorDto
     {
